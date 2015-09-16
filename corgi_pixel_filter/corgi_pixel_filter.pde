@@ -7,10 +7,10 @@ int len, w, h;  // longitud, ancho y alto de la imagen
 
 void setup() {
   // IMPORTANTE: alto y ancho debe coincidir con imagen
-  size(693, 720); 
+  size(500, 500); 
   
   // carga la imagen
-  imagen = loadImage("corgi3.jpg");
+  imagen = loadImage("corgi.jpg");
   imagen.loadPixels();
   
   // carga las características de la imagen

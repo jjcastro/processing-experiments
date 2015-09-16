@@ -7,7 +7,7 @@ float cut = 2000 / 3.0;
 int thickness;
  
 void setup() {
-  size(1000, 500);
+  size(500, 500);
   noStroke();
   background(0);
   frameRate(60);
